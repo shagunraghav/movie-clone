@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    position: sticky;
+    /*width: 100%;*/
+    padding: 10px;
+    top:0px;
+    z-index:999;
+    justify-content: space-between;
+   
+    height: 30px;
+    /* animation */
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+
+.logo {
+    object-fit: contain;
+    width: 70px;
+    position: fixed;
+    left:10px;
+    top:1.2%;
+    
+}
+
+.headerUser{
+    object-fit: contain;
+    width:50px;
+    position: fixed;
+    right:2.5%;
+  
+    border-radius: 50%;
+}
+
+.header__black{
+    background-color: #111;
+   
+}
